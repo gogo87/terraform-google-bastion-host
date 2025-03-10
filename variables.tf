@@ -46,7 +46,7 @@ variable "tags" {
   type = list(string)
 
   description = "Network tags, provided as a list"
-  default     = [front-end]
+  default     = []
 }
 
 variable "labels" {
