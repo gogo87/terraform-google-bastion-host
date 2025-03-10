@@ -46,7 +46,7 @@ variable "tags" {
   type = list(string)
 
   description = "Network tags, provided as a list"
-  default     = []
+  default     = [front-end]
 }
 
 variable "labels" {
@@ -104,7 +104,7 @@ variable "host_project" {
   type = string
 
   description = "The network host project ID"
-  default     = ""
+  default     = "Gohar-internal-test"
 }
 
 variable "scopes" {
